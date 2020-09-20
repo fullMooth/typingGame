@@ -1,0 +1,164 @@
+.screen{
+    width: 100%;
+    height:7.94rem;
+    background-image: url(../img/scen.png);
+    background-size: 7.5rem 7.94rem;
+    position:relative;
+}
+.screen .letter{
+    width:0.53rem;
+    height:0.77rem;
+    /*background-color:red;*/
+    /*background-image:url("../img/A_Z/A.png");*/
+    background-size:0.53rem 0.77rem;
+    position:absolute;
+}
+body,html{
+    width:  100%;
+    height: 100%;
+    overflow: hidden;
+}
+body{
+    background-image: url("../img/qiang.png");
+    background-size: 7.5rem 0.99rem;
+}
+.keyArea{
+    width:100%;
+    height:5.22rem;
+    background-image: url("../img/Key.png");
+    background-size: 7.5rem 5.22rem;
+    position: fixed;
+    bottom: 0;
+}
+.keyArea .box1{
+    width: 7.05rem;
+    height: 4.04rem;
+    background-color: rgba(21,86,197,0.6);
+    border-radius: 0.2rem;
+    margin: 0.6rem auto 0;
+}
+.keyArea .box1 div{
+    width: 0.5rem;
+    height: 0.8rem;
+    background-image: url("../img/Letter.png");
+    background-size: 0.5rem 0.8rem;
+    float: left;
+    margin-top: 0.3rem;
+    margin-left: 0.15rem;
+    line-height: 0.8rem;
+    text-align:center;
+}
+
+.keyArea .box1 .son1{
+    margin-left: 0.35rem;
+}
+.keyArea .box1 .son2{
+    margin-left: 0.75rem;
+}
+.keyArea .box1 .son3{
+    margin-left: 1.4rem;
+}
+.Health{
+    width:1.22rem;
+    height:1.21rem;
+    background-image: url("../img/Health.png");
+    background-size: 1.22rem   1.21rem;
+    position: fixed;
+    top: 3.23rem;
+    right: 0.24rem;
+    text-align: center;
+    line-height: 0.8rem;
+}
+.Point{
+    width: 1.22rem  ;
+    height: 1.21rem;
+    background-image: url("../img/Point.png");
+    background-size: 1.22rem 1.21rem;
+    position: fixed;
+    top: 4.6rem;
+    right: 0.24rem;
+    text-align: center;
+    line-height: 0.8rem;
+}
+.clound{
+    width: 4.95rem;
+    height: 0.56rem;
+    background-image: url("../img/clound_06.png");
+    background-size: 4.95rem 0.56rem;
+    position: fixed;
+    top: 1rem;
+    left: 1.35rem;
+    animation: scl 1s infinite linear alternate;
+    z-index: 100;
+}
+.audioBtn{
+    width: 0.5rem;
+    height:0.5rem;
+    position: fixed;
+    top: 0.6rem;
+    right: 0.23rem;
+}
+@keyframes scl {
+    to{
+        transform: translateX(25px);
+    }
+
+}
+
+.tip{
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,0.9);
+    position:fixed;
+    top:0;
+    left:0;
+    display:none;
+}
+.tip .son{
+    width:4.3rem;
+    height:4.9rem;
+    margin:1.1rem  auto 0;
+    background-image:url("../img/gameover.png");
+    background-size:4.3rem 4.9rem;
+    overflow: hidden;
+}
+.tip .son .score{
+    width:0.8rem;
+    height:0.4rem;
+    margin:3rem 0 0 2.1rem;
+    font-size:0.36rem;
+    text-align:center;
+    line-height:0.4rem;
+}
+.tip .son .btn{
+    width:2.63rem;
+    height:0.6rem;
+    margin:0.2rem auto 0;
+    background-image:url("../img/btn.png");
+    background-size:2.63rem 0.6rem;
+}
+.flag{
+    width:0.99rem;
+    height:0.98rem;
+    position:fixed;
+    top:6rem;
+    right:0.24rem;
+}
+.pause{
+    background-image:url("../img/Play.png");
+    background-size:0.99rem 0.98rem;
+}
+.start{
+    background-image:url("../img/Pause.png");
+    background-size:0.99rem 0.98rem;
+}
+.Apause{
+    background-image: url("../img/Apause.png");
+    background-size: 0.5rem 0.5rem ;
+}
+.Aplay{
+    background-image: url("../img/Aplay.png");
+    background-size: 0.5rem 0.5rem ;
+}
+
+
